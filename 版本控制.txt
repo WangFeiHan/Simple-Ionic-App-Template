@@ -1,0 +1,18 @@
+RULE:
+    Version number  --> [0.0.0]
+    Details         --> [Add]
+                        [Delete]
+                        [Error]
+                        [Solve]
+                        [SYNC] : 同步。
+                        [ST] : 穩定版，附上版本號。
+
+[0.0.2]
+    [Add]
+        1.  Custom preload.
+
+[0.0.1]
+    [Add]
+        1.  Tabs.
+        2.  Authenticate guard.
+        3.  Side menu.

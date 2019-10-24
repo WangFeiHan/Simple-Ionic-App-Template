@@ -1,0 +1,22 @@
+.displayPanel {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 5% 5% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    height: 100%;
+    width: 100%;
+}
+
+.login {
+    position: relative;
+    grid-row: 10;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.register {
+    position: relative;
+    grid-row: 10;
+    grid-column-start: 7;
+    grid-column-end: 10;
+}
